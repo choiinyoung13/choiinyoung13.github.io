@@ -1,0 +1,481 @@
+body {
+    margin: 0;
+}
+
+div, .head {
+    box-sizing: border-box;
+}
+
+.font-lg {
+    font-size: 26px;
+}
+
+.font-mid {
+    font-size: 24px;
+}
+
+.font-small {
+    font-size: 20px;
+}
+
+.btn {
+    padding: 12px;
+    background-color: #333333;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+}
+
+.head {
+    width: 100%;
+    background: linear-gradient(#69F, #66C);
+    display: flex;
+    padding-top: 40px;
+    padding-left: 100px;
+
+}
+
+.head-text {
+    width: 50%;
+    color: white;
+    min-width: 700px;
+   
+    
+}
+
+.iphone-img {
+    width: 50%;
+    
+}
+
+.iphone-img img {
+    width: 40%;
+    display: block;
+    float: right;
+    margin-right: 90px;
+    margin-top: 40px;
+    min-width: 300px;
+      
+}
+
+@media screen and (max-width:1200px){
+    .head-text {
+    min-width: 500px;
+   
+    
+    }
+    
+    .head-text p {
+    font-size: 14px;
+      
+    }
+    
+    .head-text h1 {
+    font-size: 36px;
+    margin-top: 0;    
+      
+    }
+    
+    .iphone-img img {
+        width: 70%;
+        margin-top: 20px;
+        min-width: 180px;
+    }
+    
+    .btn {
+        padding: 10px;
+        font-size: 10px;
+    }
+    
+}
+
+@media screen and (max-width:992px){
+    .head {
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        padding-left: 0px;
+    }
+    
+    .head-text {
+        text-align: center;
+        min-width: 300px;
+    }
+    
+    .head-text h1 {
+    font-size: 24px;
+      
+    }
+    
+    .head-text p {
+    font-size: 10px;
+    
+    
+      
+    }
+    
+    .iphone-img img {
+        min-width: 200px;
+        width: 60%;
+        margin-right: 0px;
+        float: none;
+        margin: auto;
+        margin-top: 20px
+             
+}
+    .iphone-img {
+        width: 50%;
+        margin: auto;
+            
+}
+    
+}
+.chapter2-text {
+    text-align: center;
+    
+}
+
+.chapter2-text h2, .chapter2-text p {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+
+.chapter2-text p {
+    color: #333333;
+    margin-bottom: 26px;
+}
+
+.chapter2 {
+    padding: 60px;
+}
+
+.chapter3 {
+    width: 100%;
+    background-color: #66C;
+    padding: 30px;
+    
+}
+
+@media screen and (max-width:1200px){
+    
+    
+    .chapter2 {
+    padding: 40px;
+    }
+    
+    .chapter2-text h2 {
+        font-size: 22px;
+    }
+    
+    .chapter2-text p {
+        font-size: 18px;
+    }
+    
+    .chapter2-text .btn {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:992px){
+    .chapter2 {
+    padding: 36px;
+    }
+    
+    .chapter2-text h2 {
+        font-size: 16px;
+    }
+    
+    .chapter2-text p {
+        font-size: 14px;
+    }
+}
+.chapter3-head {
+    color: white;
+    text-align: center;
+    line-height: 8px;
+    margin-bottom: 50px;
+}
+
+.chapter3-main {
+    width: 60%;
+    margin: auto;
+    
+    
+}
+
+.ch3-main-1 {
+    color: white;
+    width: 25%;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 20px;
+    float: left
+}
+
+.ch3-main-1 span{
+    font-size: 22px;
+}
+
+div {
+    
+}
+
+.icon-bg {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50px;
+    margin: auto;
+    padding-top: 22px
+}
+
+.icon-bg2 {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50px;
+    margin: auto;
+    padding-top: 26px;
+    padding-right: 4px;   
+}
+
+@media screen and (max-width:1200px){
+    .ch3-main-1 {    
+    width: 50%;
+    
+
+}
+    
+}
+
+@media screen and (max-width:992px){
+    .ch3-main-1 {    
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    
+
+}
+}
+
+
+
+.chapter4 {
+    width: 100%;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.ch4-head {
+    text-align: center;
+    line-height: 8px;
+}
+
+div {
+    
+}
+
+.ch4-main {
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+    
+}
+
+.ch4-img {
+    width: 50%;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+     
+}
+
+
+
+.ch4-img img {
+    width: 100%;
+    display: block;
+    
+    
+}
+
+.ch4-img-text {
+    position: absolute;
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 75%;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    display: block;
+}
+
+
+.ch4-footer {
+    width: 100%;
+    
+}
+
+.ch4-icon {
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    
+    
+    
+    
+}
+
+.ch4-icon-bg {
+    width: 70px;
+    height: 70px;
+    background-color: #66C;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.ch4-icon-2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bottom-text {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width:1200px){
+    
+    .ch4-img-text p{
+    font-size: 12px;
+} 
+    
+    .ch4-img-text{
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 80%;
+} 
+}
+
+@media screen and (max-width:992px){
+    
+    .ch4-img {
+    width: 100%;
+    margin-top: 10px;
+    
+}
+ 
+    .ch4-img-text {
+    position: absolute;
+    color: white;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+    
+    .ch4-img-text h2{
+    font-size: 36px;
+    margin-bottom: 0px;
+} 
+    
+    .ch4-img-text p{
+    font-size: 18px;
+}   
+}
+
+@media screen and (max-width:768px){
+    
+    .ch4-img {
+    width: 100%;
+    margin-top: 10px;
+    
+}
+ 
+    .ch4-img-text {
+    position: absolute;
+    color: white;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+    
+    .ch4-img-text p{
+    font-size: 5px;
+    
+        
+}   
+    
+    .ch4-img-text h2{
+    font-size: 34px;
+       
+}   
+ 
+    .ch4-img:hover .border-box {
+    border: 5px solid white;
+   
+}
+
+}
+
+@media screen and (max-width:576px){
+    
+    .ch4-img {
+    width: 100%;
+    margin-top: 10px;
+    
+}
+ 
+    .ch4-img-text {
+    position: absolute;
+    color: white;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+    
+    
+}
+    
+    .ch4-img-text p{
+    font-size: 1px;
+    text-align: center;
+    
+        
+}   
+    
+    .ch4-img-text h2{
+    font-size: 20px;
+    text-align: center;
+       
+}   
+ 
+}
+
+
+.relative-box {
+    position: relative;
+    
+}
+
+
+.border-box {
+    transition: all ease 1s;
+}
+
+.ch4-img:hover .border-box {
+    border: 20px solid white;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
